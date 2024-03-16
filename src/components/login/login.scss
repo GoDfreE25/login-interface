@@ -1,0 +1,86 @@
+.login_container {
+  width: 400px;
+  padding: 180px 556px 332px 556px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 80px;
+    font: 1em sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+.button_container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  .button {
+    text-transform: none;
+    height: 48px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border-color: #d3d8dc;
+    &:hover {
+      border-color: #dfe5ea;
+    }
+  }
+}
+.separator_container {
+  margin-top: 30px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  .separator_border {
+    width: 186px;
+    border-bottom: 1px solid #e3e6e9;
+  }
+  .separator_title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #bec5cc;
+  }
+}
+
+.fields_container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  .forgot_pass_title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    color: #316fea;
+  }
+}
+
+.footer_container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  .footer_title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #383838;
+  }
+  .footer_subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #316fea;
+  }
+}
